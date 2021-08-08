@@ -36,5 +36,11 @@ public class Cat {
 	int getAge() {
 		return age;
 	}
+	
+	void introduceMyself() {
+		String n = getName();
+		int a = getAge();
+		System.out.println("名前は" + n + "です、" + a + "歳です。");
+	}
 
 }
