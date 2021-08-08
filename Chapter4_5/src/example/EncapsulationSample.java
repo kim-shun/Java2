@@ -7,6 +7,8 @@ public class EncapsulationSample {
 		tama.setName("タマ");
 		System.out.println(tama.getName());
 
+//		tama.name = "タマ";
+//		System.out.println(tama.name);
 	}
 
 }
