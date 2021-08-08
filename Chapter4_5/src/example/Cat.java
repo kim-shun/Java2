@@ -1,9 +1,9 @@
 package example;
 
 public class Cat {
-	String name;
-	int age;
-	boolean hungry;
+	private String name;
+	private int age;
+	private boolean hungry;
 	
 	private void printMessage(String message) {
 		System.out.println(name + "> " + message);
