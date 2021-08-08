@@ -2,6 +2,7 @@ package example;
 
 public class Cat {
 	String name;
+	int age;
 	boolean hungry;
 	
 	void eat() {
@@ -18,6 +19,22 @@ public class Cat {
 		System.out.println(name + ">" + toy + "で遊ぶよ。楽しいにゃー");
 		System.out.println(name + "> 遊んでお腹が減ったにゃー");
 		hungry = true;
+	}
+	
+	void setName(String catName) {
+		name = catName;
+	}
+	
+	String getName() {
+		return name;
+	}
+	
+	void setAge(int catAge) {
+		age = catAge;
+	}
+	
+	int getAge() {
+		return age;
 	}
 
 }
