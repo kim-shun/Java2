@@ -12,6 +12,7 @@ public class PublicAccessSample {
 		tama.eat();
 		tama.playToy("ボール");
 		tama.introduceMyself();
+//		tama.printMessage("にゃー");
 
 	}
 
