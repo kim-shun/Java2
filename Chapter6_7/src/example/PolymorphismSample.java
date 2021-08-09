@@ -23,6 +23,12 @@ public class PolymorphismSample {
 			pet = new Cat();
 			System.out.println("＜1,2以外が入力されたので、猫(デフォルト)を選択します＞");
 		}
+		
+		pet.eat();
+		pet.playToy();
+		
+		pet.eat("大好きなペットフード");
+		pet.playToy("ボール");
 
 	}
 
