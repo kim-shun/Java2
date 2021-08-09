@@ -58,6 +58,8 @@ public class Cat {
 		return age;
 	}
 	
+	
+	
 	public void introduceMyself() {
 		printMessage("名前は" + getName() + "です、" + getAge() + "歳です。");
 	}
