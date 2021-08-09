@@ -10,6 +10,11 @@ public class Cat {
 		this.age = 0;
 	}
 	
+	public Cat(String name, int age) {
+		this.name = name;
+		this.age = age;
+	}
+	
 	private void printMessage(String message) {
 		System.out.println(name + "> " + message);
 	}
