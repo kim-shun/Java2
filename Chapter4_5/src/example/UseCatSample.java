@@ -4,7 +4,7 @@ public class UseCatSample {
 
 	public static void main(String[] args) {
 		Cat tama = new Cat();
-		tama.name = "タマ";
+//		tama.name = "タマ";
 		tama.eat();
 		tama.playToy("ひも");
 
