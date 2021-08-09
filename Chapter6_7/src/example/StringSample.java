@@ -11,7 +11,16 @@ public class StringSample {
 		
 		String str4 = "ABCdef123ＡＢＣｄｅｆ";
 		System.out.println(str4.toUpperCase());
-
+		
+		String str5 = "abcdefghij";
+		String str6 = "abc";
+		System.out.println(str5.indexOf(str6));
+		
+		String str7 = "efg";
+		String str8 = "1234";
+		
+		System.out.println(str5.indexOf(str7));
+		System.out.println(str5.indexOf(str8));
 	}
 
 }
