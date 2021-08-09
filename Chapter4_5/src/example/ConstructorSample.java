@@ -12,7 +12,7 @@ public class ConstructorSample {
 //		
 //		tama.introduceMyself();
 		
-		Cat tama = new Cat("たま", 3);
+		Cat tama = new Cat("たま");
 		tama.introduceMyself();
 
 	}
