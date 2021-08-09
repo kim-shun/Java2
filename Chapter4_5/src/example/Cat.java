@@ -5,6 +5,11 @@ public class Cat {
 	private int age;
 	private boolean hungry;
 	
+	public Cat() {
+		this.name = "まだない";
+		this.age = 0;
+	}
+	
 	private void printMessage(String message) {
 		System.out.println(name + "> " + message);
 	}
