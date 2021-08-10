@@ -10,6 +10,10 @@ public class ExtendSample {
 		tama.setAge(4);
 		tama.introduceMyself();
 
+		Dog pochi = new Dog("ポチ", 5);
+		
+		pochi.eat();
+		pochi.introduceMyself();
 	}
 
 }
