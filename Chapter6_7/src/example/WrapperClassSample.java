@@ -10,6 +10,9 @@ public class WrapperClassSample {
 		System.out.println(Integer.parseInt(str2));
 		String str3 = "+123";
 		System.out.println(Integer.parseInt(str3));
+		String str6 = "10.5";
+//		System.out.println(Integer.parseInt(str6));
+		System.out.println(Double.parseDouble(str6));
 
 	}
 
