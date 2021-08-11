@@ -33,7 +33,9 @@ public class Dog extends Animal implements Pet {
 	
 	@Override
 	public void introduceMyself() {
-		printMessage("名前は" + getName() + "です、" + getAge() + "歳です。");
+//		printMessage("名前は" + getName() + "です、" + getAge() + "歳です。");
+		super.introduceMyself();
+		
 		boolean h = isHungry();
 		if (h == true) {
 			printMessage("お腹が空いてるワン");
