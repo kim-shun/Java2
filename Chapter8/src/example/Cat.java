@@ -2,8 +2,9 @@ package example;
 
 public class Cat extends Animal implements Pet {
 	public Cat(String name, int age) {
-		setName(name);
-		setAge(age);
+//		setName(name);
+//		setAge(age);
+		super(name,age);
 		System.out.println(name + "," + age);
 	}
 		
