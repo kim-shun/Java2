@@ -1,6 +1,6 @@
 package example;
 
-public class Cat extends Animal implements Pet {
+public final class Cat extends Animal implements Pet {
 	public Cat(String name, int age) {
 //		setName(name);
 //		setAge(age);
